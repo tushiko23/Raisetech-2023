@@ -1,0 +1,14 @@
+# Ignore credential file for Terraform
+credential.auto.tfvars
+
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.1726981646.backup
+
+# Ignore Terraform crash logs
+crash.log
+
+.terraform/
+terraform/
+*.terraform/
