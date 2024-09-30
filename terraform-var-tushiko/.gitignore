@@ -9,4 +9,7 @@ credential.auto.tfvars
 # Ignore Terraform crash logs
 crash.log
 
-
+.terraform/
+terraform/
+*.terraform/
+.terraform/
